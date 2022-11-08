@@ -40,10 +40,10 @@ function App() {
 
       //Make detections
       const person = await net.segmentPersonParts(video);
-      console.log(person);
+      // console.log(person);
 
       //Draw detections
-      const coloredPartImage = bodyPix.toColoredPartMask(person);
+      const coloredPartImage = bodyPix.toColoredPartMask(person,bodyPix.bodyPixMaskValueToRainbowColor, {r: 255, g: 255, b: 255, a: 255} );
 
       bodyPix.drawPixelatedMask(
         canvasRef.current,
