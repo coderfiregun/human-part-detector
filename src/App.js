@@ -45,13 +45,14 @@ function App() {
       //Draw detections
       const coloredPartImage = bodyPix.toColoredPartMask(person);
 
-      bodyPix.drawMask(
+      bodyPix.drawPixelatedMask(
         canvasRef.current,
         video,
         coloredPartImage,
         0.7,
         0,
-        false
+        false,
+        10.0
       );
     }
 
