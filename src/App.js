@@ -15,7 +15,7 @@ function App() {
 
     setInterval(()=>{
       detect(net);
-    },1000);
+    },0.1);
   };
 
   const detect = async (net) => {
