@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/human-part-detector/static/css/main.073c9b0a.css",
+    "main.js": "/human-part-detector/static/js/main.474ebd2f.js",
+    "static/js/787.a97cb00a.chunk.js": "/human-part-detector/static/js/787.a97cb00a.chunk.js",
+    "index.html": "/human-part-detector/index.html",
+    "main.073c9b0a.css.map": "/human-part-detector/static/css/main.073c9b0a.css.map",
+    "main.474ebd2f.js.map": "/human-part-detector/static/js/main.474ebd2f.js.map",
+    "787.a97cb00a.chunk.js.map": "/human-part-detector/static/js/787.a97cb00a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.474ebd2f.js"
+  ]
+}
